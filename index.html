@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author"  content="Alberto León"> 
+  <meta name="description" content="Sitio web de fotografía del fotográfo Alberto León"> 
+  <title>Alberto Le&oacute;n photography</title>
+  <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="funtion.js"></script> <!--Scrip del menu hamburguesa-->
+  <link rel="stylesheet" href="/styles/style.css">
+  
+</head>
+<body>
+  <header class="main-header" >   
+    <nav id="nav" class="main-nav" >
+      <ul>
+        <li><a class="list__category" href="#">Galer&iacute;a</a>
+      <ul>    
+        <li ><a href="novios.html">Novios</a></li>
+        <li ><a href="retrato.html">Retrato</a></li>
+        <li ><a href="paisajes.html">Paisaje</a></li>
+      </ul>
+  </li>
+      <li ><a class="list__category" href="#info">Contacto</a></li>
+      </ul>  
+    </nav>
+    <button id="button-menu" class="button-menu" >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+    <main class="main">
+      
+       <section class="main__hero">
+        <div>
+         <h1 class="title">Alberto Le&oacute;n</h1>
+         <p class="f">Fot&oacute;grafo</p>
+       </div>
+       </section>
+      
+      <section class="bio__container">
+        <div>
+          <h2 class="title2">Pasi&oacute;n por la fotograf&iacute;a</h2>
+          <p class="f2">No s&oacute;lo se trata de tomar fotograf&iacute;as; sino tambi&eacute;n de hacer arte.</p>
+        </div>  
+
+      </section>   
+      <section class="contact-section2">
+    <div class="container ">
+      <figure class="image__me">
+        <img src="/images/yo.jpg" alt="">
+      </figure>
+    
+      <div class="address" id="info">
+        <h3 class="main-text">Sobre m&iacute;</h3><br>
+        <p class="main-text"><em>"Fotografiar, es poner la cabeza, el ojo y el coraz&oacute;n en el mismo punto de mira."</em></p>
+        <p class="main-text">-- <strong>Henri Cartier-Bresson</strong></p><br>
+        <p class="main-text">Para m&iacute; lograr capturar el "instante decisivo" en cada fotograf&iacute;a  es fundametal para que una foto se imponga al paso del tiempo.</p>
+        <p class="main-text">Trato cada motivo con el cuidado necesario para obtener la imagen que he concebido.  Creo que no hay mejor ant&iacute;doto contra la  velocidad a la que se mueve el mundo hoy, como la fotograf&iacute;a.</p>
+      </div>
+    </div>
+   </main>
+
+  
+  <section class="contact-section  ">
+    <div class="container ">
+      <form name="frmContacto" method="post" action="https://formspree.io/f/xzbwgeoy" class="card final-container">
+        <label class="input-field">
+          Email:
+          <input type="email" id="email"  name="email" placeholder="hello@example.com">
+        </label>
+        <textarea name="message" id="message" class="input-field top-space" placeholder="Escribe tu mensaje"></textarea>
+        <input type="submit" value="Enviar" class="top-space-md btn-main">
+      </form>
+    
+      <div class="address" id="info">
+        <h3 class="main-text">Contacto</h3><br>
+        <p class="main-text">Fraccionamiento Nueva Tijuana #69.</p>
+        <p class="main-text">Nueva Tijuana</p>
+        <p class="main-text">Tijuana, Baja California.</p>
+      </div>
+    </div>
+  </section>        
+             
+  <footer class="container__final" id="contact">
+    <div class="copyright-footer" class="content-bg">
+      <p class="user-copyright">
+            © 2022  Alberto Le&oacute;n | Fot&oacute;grafo | Tijuana, M&eacute;xico |</p>
+            <p class="user-copyright">
+              Sitio web creado y dise&ntilde;ado por Alberto Le&oacute;n </p>
+            </div>   
+         <div class="contact">
+           <a  href="https:www.linkedin.com/in/alberto-león-tj" target="_blank"> <img src="/images/linkedin-icon.svg" class="social__media" alt="Conectar con Linkedin"> </a>
+           <a href="https://twitter.com/Albertogeek84" target="_blank"> <img src="/images/twitter-icon.svg" class="social__media" alt="Conectar con Twitter"> </a>
+    </div>
+    </footer>      
+      
+ 
+</body>
+</html>
