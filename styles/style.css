@@ -152,7 +152,7 @@ display:block;
 
 .main__hero{
 
-	background-image: url(..images/yo.jpg);
+	background-image: url(../images/yo.jpg);
 	min-height: 900px;/*Tamaño de la imagen*/
 	background-size:cover;
         background-position: center;
