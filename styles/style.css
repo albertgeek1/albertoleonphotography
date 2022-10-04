@@ -374,7 +374,7 @@ textarea.input-field{
 	
 .main__hero{
 
-	background-image: url(/portada/horsemobile.jpg);
+	background-image: url(..images/horsemobile.jpg);
 	background-size:cover;/*Tamaño de las imágenes de fondo*/
 	background-position:center;       
 	height: 10vh;
