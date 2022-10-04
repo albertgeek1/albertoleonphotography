@@ -175,7 +175,7 @@ display:block;
 
 .bio__container {
   color:black;
-  background-image: url(/images/camara2.jpg);
+  background-image: url(../images/camara2.jpg);
 	min-height: 600px;/*Tamaño de la imagen*/
 	background-size:cover;
   background-position: center;
@@ -333,7 +333,7 @@ textarea.input-field{
   color: #0e0909;
 }
 .card{
-  background-image: url(/images/camara2.jpg);
+  background-image: url(../images/camara2.jpg);
   padding: 40px 20px;
   background-size:cover;
   background-position: center;
@@ -374,7 +374,7 @@ textarea.input-field{
 	
 .main__hero{
 
-	background-image: url("images/horsemobile.jpg");
+	background-image: url(../images/horsemobile.jpg);
 	background-size:cover;/*Tamaño de las imágenes de fondo*/
 	background-position:center;       
 	height: 10vh;
