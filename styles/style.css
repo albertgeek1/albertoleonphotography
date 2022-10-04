@@ -152,7 +152,7 @@ display:block;
 
 .main__hero{
 
-	background-image: url(../images/yo.jpg);
+	background-image: url(/images/yo.jpg);
 	min-height: 900px;/*Tamaño de la imagen*/
 	background-size:cover;
         background-position: center;
@@ -374,7 +374,7 @@ textarea.input-field{
 	
 .main__hero{
 
-	background-image: url(images/portada/horsemobile.jpg);
+	background-image: url(/portada/horsemobile.jpg);
 	background-size:cover;/*Tamaño de las imágenes de fondo*/
 	background-position:center;       
 	height: 10vh;
