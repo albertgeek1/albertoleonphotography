@@ -306,10 +306,7 @@ img {
   width:100%;
   /* outline: 0; */
 }
-.textarea .input-field{
-  min-height: 180px;
-  
-}
+
 .contact-section form.card{
   width: min(450px, 100%);
 }
