@@ -234,10 +234,8 @@ img {
   
 }
 .container__final{
-
-	color:white;
-	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  background-blend-mode: multiply,multiply;
+  color:white;
+  background: rgb(67,76,89);
   padding-top: 20px;
   align-items: center;
   
