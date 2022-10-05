@@ -490,7 +490,7 @@ textarea.input-field{
  
 .bio__container {
   color:black;
-  background-image: url(images/camara2.jpg);
+  background-image: url(../images/camara2.jpg);
 	min-height: 200px;/*Tamaño de la imagen*/
 	background-size:cover;
   background-position: center;
