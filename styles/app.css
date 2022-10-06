@@ -166,6 +166,24 @@ body {
 .gallery-lightbox__control.icon-next {
     right: 10px;
 }
+
+.btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: rgb(32, 41, 90);
+    color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    transform: translateY(100px);
+    transition: 0.3s;
+  }
+  
+  .btn-scrolltop-on {
+    transform: translateY(0);
+  }
 @media screen and (min-width: 320px) {
     .icon .icon__home{
 
