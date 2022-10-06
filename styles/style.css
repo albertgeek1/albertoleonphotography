@@ -327,9 +327,24 @@ textarea.input-field{
   font-size: 1rem;
 }
 
-.top-space-md{
+.top-space-md {
 
-  color: #0e0909;
+  background-color: rgb(11, 11, 24);
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25%;
+
+}
+.top-space-md:hover{
+  background-color: gray;
+}
+.btn-main:hover{
+
+  color: #000000;
+}
+.btn-main{
+
+  color: white;
 }
 .card{
   background-image: url(../images/camara2.jpg);
