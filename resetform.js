@@ -1,3 +1,3 @@
 function limpiar() {
-  document.getElementById("miForm").reset();
+  document.getElementById("formulario").reset();
 }
