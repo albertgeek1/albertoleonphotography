@@ -13,6 +13,7 @@
     ></script>
     <script defer src="funtion.js"></script> <!--Scrip del menu hamburguesa-->
     <script defer src="resetform.js"></script>
+    <script defer src="validation.js"></script>
   <link rel="stylesheet" href="styles/style.css">
   
 </head>
@@ -72,18 +73,18 @@
   
   <section class="contact-section  ">
     <div class="container ">
-      <form name="frmContacto" method="post" action="https://formspree.io/f/xzbwgeoy" class="card final-container" id="miForm">
+      <form name="frmContacto" method="post" action="https://formspree.io/f/xwkzqwno" class="card final-container" id="formulario">
         <label class="input-field">
         Nombre:<br>
-        <input type="text" name="Nombre" id="" size="50">
+        <input type="text" name="Nombre" id="nombre" size="50">
         </label><br>
         <label class="input-field">
         Apellidos:<br> 
-        <input type="text" name="Apellidos" id="" size="53">
+        <input type="text" name="Apellidos" id="apellidos" size="53">
        </label><br>
        <label class="input-field">
         Email:
-        <input type="email" id="email"  name="email" placeholder="hello@example.com">
+        <input type="email" id="user-email"  name="email" placeholder="hello@example.com">
        </label>
         <textarea name="message" id="message" class="input-field top-space" placeholder="Escribe tu mensaje"></textarea>
         <input type="submit" value="Enviar" class="top-space-md btn-main">
