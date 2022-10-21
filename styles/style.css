@@ -146,6 +146,8 @@ display:block;
        font-weight:bold;
 	text-align: center;
 	padding-top: 50px;
+	text-shadow: 0 0 10px rgb(218, 188, 245);
+        filter: brightness(150%);
   
 
 }
