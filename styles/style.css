@@ -142,12 +142,12 @@ display:block;
 
 .subtitle-two{
 	color: black;
-	font-size: 30px;
+	font-size: 40px;
        font-weight:bold;
 	text-align: center;
 	padding-top: 50px;
-	text-shadow: 0 0 10px rgb(192, 181, 102);
-        filter: brightness(2.0);
+	text-shadow: 0 0 5px rgb(233, 183, 113);
+        filter: brightness(1.90);
   
 
 }
@@ -169,7 +169,7 @@ display:block;
 
 }
 .title-two{
-	font-size: 40px;
+	font-size: 60px;
 	text-align:center;
 	color: black;
 	padding-top:200px;
