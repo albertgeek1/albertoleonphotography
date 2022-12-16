@@ -5,22 +5,23 @@ document.getElementById("formulario").addEventListener('submit', validarFormular
  
 function validarFormulario(evento) {
 
-evento.preventDefault(); 
-let name = document.getElementById('nombre').value;
 
+ evento.preventDefault(); //Para evitar que el formulario sea enviado sin validar los datos
+ 
+let name = document.getElementById('nombre').value; // Validando el campo nombre
 if(name.length == 0) {
 alert('¡No has escrito tu nombre!');
 return;
 }
 
-let lastname = document.getElementById('apellidos').value;
+let lastname = document.getElementById('apellidos').value; // Validando el campo apellidos
 if (lastname.length == 0) {
 alert('¡No has escrito tus apellidos!');
 return;
 }
    
 
-let emailField = document.getElementById('user-email').value;
+let emailField = document.getElementById('user-email').value; // Validando el campo e-mail
              
 // Definición de una expresión regular.
 
@@ -33,7 +34,7 @@ if( validEmail.test(emailField) ){
 alert('Los datos han sido validados');
            
 
-this.submit();
+this.submit();  // Se envia el formulario una vez que los datos han sido validados
               
 
 }
