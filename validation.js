@@ -8,7 +8,7 @@ function validarFormulario(evento) {
 
  evento.preventDefault(); //Para evitar que el formulario sea enviado sin validar los datos
  
-let name = document.getElementById('nombre').value; // Validando el campo nombre
+let name = document.getElementById('nombre').value; // Revisar validacion de nombre
 if(name.length == 0) {
 alert('¡No has escrito tu nombre!');
 return;
