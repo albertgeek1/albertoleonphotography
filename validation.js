@@ -40,7 +40,7 @@ this.submit();  // Se envia el formulario una vez que los datos han sido validad
 }
 else{
 
-alert('EFormulario enviado correctamente');
+alert('Formulario enviado correctamente');
 
 return;
 }          
