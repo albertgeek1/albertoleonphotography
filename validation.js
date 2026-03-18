@@ -40,7 +40,7 @@ this.submit();  // Se envia el formulario una vez que los datos han sido validad
 }
 else{
 
-alert('El correo no es válido o falta llenar el campo');
+alert('EFormulario enviado correctamente');
 
 return;
 }          
