@@ -25,7 +25,7 @@ let emailField = document.getElementById('user-email').value; // Validando el ca
              
 // Definición de una expresión regular.
 
-let validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
+let validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/; //Expresion regular para validad e-mail.
 
 // Usando .test podemos verificar si el texto coincide con el patrón.
 
